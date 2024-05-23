@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+Quizapp_Dark.zip
+/Quizapp_Blue
 
 # testing
 /coverage

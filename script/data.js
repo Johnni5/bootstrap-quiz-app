@@ -1,11 +1,11 @@
 const quizHtml = [
   {
     question: 'Wer hat HTML erfunden?',
-    answer_1: '<p>', // 'Bob Hope',
+    answer_1: 'Bob Hope',
     answer_2: 'Lady Gaga',
     answer_3: 'Tim Berbers Lee',
     answer_4: 'Ryan Dahl',
-    correctAnswer: 2,
+    correctAnswer: 3,
   },
   {
     question: 'Was bedeutet HTML?',
@@ -13,41 +13,41 @@ const quizHtml = [
     answer_2: 'HyperTool Markup Language',
     answer_3: 'Hyperlink Text Markup Language',
     answer_4: 'HomeTool Markup Language',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question:
-      'Welche HTML-Version führte die neuen semantischen Elemente wie <article> und <section> ein?',
+      'Welche HTML-Version führte die neuen semantischen Elemente wie -article- und -section- ein?',
     answer_1: 'HTML 4.01',
     answer_2: 'HTML 5',
     answer_3: 'XHTML',
     answer_4: 'HTML 3.2',
-    correctAnswer: 1,
+    correctAnswer: 2,
   },
   {
     question: 'Welches HTML-Tag wird verwendet, um ein Bild einzufügen?',
-    answer_1: 'img',
-    answer_2: 'image',
-    answer_3: 'pic',
-    answer_4: 'picture',
-    correctAnswer: 0,
+    answer_1: '&lt;img&gt;',
+    answer_2: '&lt;image&gt;',
+    answer_3: '&lt;pic&gt;',
+    answer_4: '&lt;picture&gt;',
+    correctAnswer: 1,
   },
   {
     question:
       'Welches Attribut wird verwendet, um eine externe CSS-Datei einzubinden?',
-    answer_1: 'src',
-    answer_2: 'href',
-    answer_3: 'link',
-    answer_4: 'rel',
-    correctAnswer: 1,
+    answer_1: '&lt;src&gt;',
+    answer_2: '&lt;href&gt;',
+    answer_3: '&lt;link&gt;',
+    answer_4: '&lt;rel&gt;',
+    correctAnswer: 2,
   },
   {
     question: 'Welches HTML-Tag wird verwendet, um einen Absatz zu erstellen?',
-    answer_1: 'p tag',
+    answer_1: 'p',
     answer_2: 'div',
     answer_3: 'span',
     answer_4: 'section',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question: 'Welches Attribut wird verwendet, um einen Tooltip anzuzeigen?',
@@ -55,7 +55,7 @@ const quizHtml = [
     answer_2: 'title',
     answer_3: 'tooltip',
     answer_4: 'hint',
-    correctAnswer: 1,
+    correctAnswer: 3,
   },
   {
     question: 'Welches Tag wird verwendet, um eine Tabelle zu definieren?',
@@ -63,7 +63,7 @@ const quizHtml = [
     answer_2: 'tab',
     answer_3: 'tr',
     answer_4: 'td',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question: 'Wie definierst du eine Tabellenzelle?',
@@ -71,7 +71,7 @@ const quizHtml = [
     answer_2: 'th',
     answer_3: 'tr',
     answer_4: 'td',
-    correctAnswer: 3,
+    correctAnswer: 4,
   },
   {
     question: 'Wie erstellt man eine ungeordnete Liste?',
@@ -79,7 +79,7 @@ const quizHtml = [
     answer_2: 'ol',
     answer_3: 'li',
     answer_4: 'list',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question: 'Wie bindest du ein Video in eine HTML-Seite ein?',
@@ -87,7 +87,7 @@ const quizHtml = [
     answer_2: 'media src="video.mp4"',
     answer_3: 'video url="video.mp4"',
     answer_4: 'embed src="video.mp4"',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question: 'Welches Attribut gibt die URL einer verlinkten Seite an?',
@@ -95,7 +95,7 @@ const quizHtml = [
     answer_2: 'href',
     answer_3: 'link',
     answer_4: 'url',
-    correctAnswer: 1,
+    correctAnswer: 2,
   },
   {
     question: 'Welches Tag wird verwendet, um Text fett darzustellen?',
@@ -103,7 +103,7 @@ const quizHtml = [
     answer_2: 'em',
     answer_3: 'bold',
     answer_4: 'b',
-    correctAnswer: 3,
+    correctAnswer: 4,
   },
   {
     question: 'Wie definierst du ein Eingabefeld in einem Formular?',
@@ -111,7 +111,7 @@ const quizHtml = [
     answer_2: 'form',
     answer_3: 'field',
     answer_4: 'text',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question:
@@ -120,7 +120,7 @@ const quizHtml = [
     answer_2: 'option',
     answer_3: 'dropdown',
     answer_4: 'list',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question:
@@ -129,7 +129,7 @@ const quizHtml = [
     answer_2: 'action',
     answer_3: 'type',
     answer_4: 'name',
-    correctAnswer: 1,
+    correctAnswer: 2,
   },
   {
     question: 'Wie kommentierst du einen HTML-Code?',
@@ -137,7 +137,7 @@ const quizHtml = [
     answer_2: '// Kommentar',
     answer_3: '/* Kommentar */',
     answer_4: '# Kommentar',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question:
@@ -146,7 +146,7 @@ const quizHtml = [
     answer_2: 'class',
     answer_3: 'name',
     answer_4: 'type',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question:
@@ -155,15 +155,15 @@ const quizHtml = [
     answer_2: 'h2',
     answer_3: 'header',
     answer_4: 'title',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
   {
     question: 'Wie binde ich eine externe JavaScript-Datei ein?',
-    answer_1: '<script src="script.js"></script>',
-    answer_2: '<javascript src="script.js"></javascript>',
-    answer_3: '<js src="script.js"></js>',
-    answer_4: '<link src="script.js">',
-    correctAnswer: 0,
+    answer_1: '&lt;script src="script.js"&gt;&lt;/script&gt;',
+    answer_2: '&lt;javascript src="script.js">&lt;/javascript&gt;',
+    answer_3: '&lt;js src="script.js"&gt;&lt;/js&gt;',
+    answer_4: '&lt;link src="script.js"&gt;',
+    correctAnswer: 1,
   },
   {
     question:
@@ -172,6 +172,6 @@ const quizHtml = [
     answer_2: 'id',
     answer_3: 'style',
     answer_4: 'css',
-    correctAnswer: 0,
+    correctAnswer: 1,
   },
 ];

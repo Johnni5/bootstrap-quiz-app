@@ -25,6 +25,20 @@ html {
   width: 40rem;
 }
 
+.answer-card {
+  cursor: pointer;
+  transition: all 175ms, ease-in;
+
+  &:hover {
+    box-shadow: whitesmoke 1px 1px;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  /* &:active {
+    background-color: aqua;
+  } */
+}
+
 .card-body-container {
   width: auto;
 }
@@ -43,6 +57,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.bg-success,
+.bg-danger {
+  color: white;
 }
 
 /* FOOTER */
