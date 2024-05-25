@@ -21,9 +21,31 @@
     </nav>
     <!-- QUIZ CARD -->
     <div class="cart-container">
+      
       <div class="card">
-        <img src="./img/big-logo.png" class="card-img-top" alt="..." />
-        <div class="card-body">
+        <img id="logo" src="./img/big-logo.png" class="card-img-top" alt="..." />
+        
+        <div class="progress" role="progressbar" aria-label="Animated striped example" >
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="progress-bar">0%</div>
+        </div>
+
+        <div class="card-body d-none end-card" id="quiz-ende">
+        <img src="./img/trophy-3d.png" class="card-img-top logo-img" alt="..." />
+
+          <h2>⚜️ Du hast das Quiz beendet! ⚜️ </h2>
+          
+          <p>🏆
+            <span id="score"></span>
+            Antwort(en) von 
+            <span id="q-length"></span>
+            waren richtig! 🏆
+          </p>
+          <button type="button" onclick="restartGame()" class="btn btn-warning">Spiele erneut!</button>
+          <a href="https://endedesinternets.de" target="_blank" tabindex="-1"><button type="button" class="btn btn-info">Ende</button>
+          </a>
+        </div>
+        
+        <div class="card-body" id="quiz-start">
           <h5 class="card-title" id="question">Frage</h5>
           <p class="card-text">
             <div class="card answer-card   mb-2 card-body-container" onclick="answer('answer_1')">

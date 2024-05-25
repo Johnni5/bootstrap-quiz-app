@@ -1,6 +1,24 @@
 {
-    "extends": "@react-native-community",
-    "rules": {
-        "quotes": [2, "double", { "avoidEscape": true }]
-      }
+  "extends": "@react-native-community",
+  "plugins": ["class-property"],
+  "rules": {
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "class-property/lines-between-class-members": [
+      "error",
+      "always",
+      { "exceptAfterSingleLine": true },
+    ],
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+  },
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "function", "next": "function" },
+    ],
+  },
 }

@@ -17,12 +17,20 @@ html {
   scroll-behavior: smooth;
 }
 
+.d-none {
+  display: none;
+}
+
 /* HEADER */
 
 /* CARD CONTAINER */
 
 .card {
   width: 40rem;
+}
+
+.logo-img {
+  width: 50%;
 }
 
 .answer-card {
@@ -34,9 +42,6 @@ html {
     background-color: rgba(0, 0, 0, 0.05);
   }
 
-  /* &:active {
-    background-color: aqua;
-  } */
 }
 
 .card-body-container {
@@ -62,6 +67,14 @@ html {
 .bg-success,
 .bg-danger {
   color: white;
+}
+
+.end-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 72px;
 }
 
 /* FOOTER */
